@@ -1,0 +1,597 @@
+rebel_type 			Pannonioi
+category			peasant_revolt
+chance				3					
+description			Paiones
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Paiones	
+category			peasant_revolt
+chance				3					
+description			Paiones
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Byzantines
+category			peasant_revolt
+chance				3					
+description			Byzantines
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Bessoi		//thrace
+category			peasant_revolt 
+chance				3					
+description			Bessoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Dardanoi		//thrace
+category			peasant_revolt 
+chance				3					
+description			Dardanoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Parthinoi		//thrace
+category			peasant_revolt 
+chance				3					
+description			Parthinoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Dalmatoi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Dalmatoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Kaukoensoi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Kaukoensoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Tyragetai		//illyria
+category			peasant_revolt 
+chance				0					
+description			Tyragetai
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Kontensoi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Kontensoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Ratakensoi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Ratakensoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Albokenses		//illyria
+category			peasant_revolt 
+chance				0					
+description			Albokenses
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Bouroi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Bouroi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Getai		//illyria
+category			peasant_revolt 
+chance				0					
+description			Getai
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Ardiaioi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Ardiaioi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Triballoi		//illyria
+category			peasant_revolt 
+chance				0					
+description			Triballoi
+unit				barbarian naked fanatics
+unit				rebel barbarian warband
+unit				rebel barbarian warband
+unit				rebel barbarian cavalry
+unit				auxiliary thracian cavalry
+unit				javelin skirmishers
+unit				barbarian rebel general
+
+
+rebel_type 			Epirotes		//Macedon
+category			peasant_revolt 
+chance				0					
+description			Epirotes
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				auxiliary thracian cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Thessalians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Thessalians
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Maroneians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Maroneians
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Macedonians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Macedonians
+unit				rebel allied cavalry
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Ionians		//seleucids
+category			peasant_revolt 
+chance				0					
+description			Ionians
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				kardakes
+unit				rebel persian infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				persian peltast
+unit				generic rebel general
+
+rebel_type 			Aetolians	//Macedon
+category			peasant_revolt 
+chance				0
+description			Aetolians
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+rebel_type 			Athenians	//Macedon
+category			peasant_revolt 
+chance				0
+description			Athenians
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Corinthians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Corinthians
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Euboeans	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Euboeans
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Achaeans	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Achaeans
+unit				rebel allied cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Thebans	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Thebans
+unit				rebel allied cavalry
+unit				auxiliary thracian cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Messenians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Messenians
+unit				rebel allied cavalry
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+rebel_type 			Heilotes	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Heilotes
+unit				rebel hoplites
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				generic rebel general
+
+
+rebel_type 			Knossians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Knossians
+unit				rebel allied cavalry
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+
+rebel_type 			Kydonians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Knossians
+unit				rebel allied cavalry
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+
+rebel_type 			Rhodians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Rhodians
+unit				rebel allied cavalry
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+
+rebel_type 			Lesbians	//Macedon
+category			peasant_revolt 
+chance				0					
+description			Lesbians
+unit				rebel allied cavalry
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+
+rebel_type 			Cretans		//macedon
+category			peasant_revolt 
+chance				0					
+description			Cretans
+unit				rebel allied cavalry
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				cretan archers
+unit				rebel greek mercenary infantry
+unit				rebel hoplites
+unit				rebel hoplites
+unit				javelin skirmishers
+unit				javelin skirmishers
+unit				javelin skirmishers
+
+
+rebel_type 			Lydians	//parthia
+category			peasant_revolt 
+chance				6					
+description			Lydians
+unit				hyrcanian cavalry
+unit				kardakes
+unit				rebel persian infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				persian peltast
+unit				persian peltast
+unit				generic rebel general
+
+
+rebel_type 			Lycians	//parthia
+category			peasant_revolt 
+chance				6					
+description			Lycians
+unit				hyrcanian cavalry
+unit				kardakes
+unit				rebel persian infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				persian peltast
+unit				persian peltast
+unit				generic rebel general
+
+
+rebel_type 			Mysians	//parthia
+category			peasant_revolt 
+chance				6					
+description			Mysians
+unit				hyrcanian cavalry
+unit				kardakes
+unit				rebel persian infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				persian peltast
+unit				persian peltast
+unit				generic rebel general
+
+
+rebel_type 			Carians	//parthia
+category			peasant_revolt 
+chance				6					
+description			Carians
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				hyrcanian cavalry
+unit				kardakes
+unit				rebel persian infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				rebel greek mercenary infantry
+unit				persian peltast
+unit				persian peltast
+unit				generic rebel general
+
+
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+rebel_type			brigands
+category			brigands
+chance				50
+description			brigands
+unit				barbarian peasants
+
+
+rebel_type			pirates
+category			pirates
+chance				50
+description			pirates
+unit				naval pirate ships
+

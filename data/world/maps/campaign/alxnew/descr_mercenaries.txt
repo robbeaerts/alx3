@@ -1,0 +1,12 @@
+
+pool Makedonia
+	regions Makedonia
+	unit merc peltast,				exp 0 cost 250 replenish 0.20 - 0.28 max 2 initial 0	restrict Greek_Cities
+	unit merc illyrian,				exp 0 cost 350 replenish 0.18 - 0.80 max 1 initial 0	restrict Greek_Cities
+	unit merc peltast,				exp 0 cost 250 replenish 0.20 - 0.28 max 2 initial 0	restrict Macedon
+	unit merc illyrian,				exp 0 cost 350 replenish 0.18 - 0.80 max 1 initial 0	restrict Macedon
+	unit merc greek hoplites,			exp 0 cost 300 replenish 0.32 - 0.50 max 2 initial 1	restrict Macedon
+	unit merc cretan archers,			exp 1 cost 300 replenish 0.05 - 0.08 max 1 initial 0	restrict Macedon
+	unit thessalian cavalry,			exp 1 cost 300 replenish 0.25 - 0.30 max 2 initial 1	restrict Macedon
+	unit merc rhodian slingers,			exp 0 cost 350 replenish 0.06 - 0.09 max 1 initial 0	restrict Macedon
+	unit allied cavalry,				exp 1 cost 350 replenish 0.25 - 0.30 max 1 initial 1	restrict Macedon

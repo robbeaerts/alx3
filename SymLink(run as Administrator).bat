@@ -1,0 +1,1 @@
+mklink /j "C:\games\Steam\steamapps\common\Rome Total War Alexander\alx\data" "C:\Projects\alx\data"

@@ -1,0 +1,415 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	heat	range 1-4 (zero would mean no armour effects to fatigue at all)
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+climates
+{
+	test_climate
+
+	sandy_desert
+	rocky_desert
+	;mediterranean
+	temperate_grassland_fertile
+	temperate_grassland_infertile
+	temperate_forest_open
+	temperate_forest_deep
+	swamp
+	highland
+	alpine
+	sub_arctic
+	;volcanic
+	semi_arid
+}
+
+climate test_climate
+{
+	colour	236 0 140
+	heat	1
+	winter
+
+
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a.cas				10
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+	
+
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a_winter.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_winter.cas				10
+	strategy	winter	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_impassable_winter.cas			10
+	strategy	winter	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy_winter.cas				10
+
+	battle_vegetation
+	dense_forest		ALX_semi_arid_shrubland
+	dense_scrub		ALX_semi_arid_scrub
+
+	battle_winter_vegetation
+	dense_forest		ALX_semi_arid_shrubland_win
+	dense_scrub		ALX_semi_arid_scrub_win_snow
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sandy_desert
+{
+	colour	102 45 145
+	heat	3
+
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_1.cas	5
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_2.cas	2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_3.cas	10
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_4.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a.cas	1
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+
+	battle_vegetation
+	dense_forest		ALX_temperate_and_cold_desert_rock
+	dense_scrub		ALX_desert_scrub
+
+	battle_winter_vegetation
+	dense_forest		ALX_temperate_and_cold_desert_rock
+	dense_scrub		ALX_desert_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate rocky_desert
+{
+	colour	146 39 143
+	heat	4
+	
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_1.cas	5
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_2.cas	2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_3.cas	10
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_4.cas	1
+	strategy	summer	sparse_tree	palm_a.cas	8
+	strategy	summer	sparse_tree	palm_b.cas	9
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_cedar_a_impassable.cas			10
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_cedar_a_canopy.cas				10
+
+	battle_vegetation
+	dense_forest		ALX_hot_desert_palms
+	dense_scrub		ALX_desert_scrub
+
+	battle_winter_vegetation
+	dense_forest		ALX_hot_desert_palms_win
+	dense_scrub		ALX_desert_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_fertile
+{
+	colour	237 20 91
+	heat	2
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a.cas		1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a.cas				10
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+
+	battle_vegetation
+	dense_forest	ALX_semi_arid_shrubland
+	dense_scrub		ALX_semi_arid_scrub
+
+	battle_winter_vegetation
+	dense_forest	ALX_semi_arid_shrubland
+	dense_scrub		ALX_semi_arid_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_infertile
+{
+	colour	237 28 36
+	heat	3
+	
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	palm_a.cas	8
+	strategy	summer	sparse_tree	palm_b.cas	9
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_cedar_a_impassable.cas			10
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_cedar_a_canopy.cas				10
+
+	battle_vegetation
+	dense_forest	ALX_hot_semi_arid_palms
+	dense_scrub		ALX_semi_arid_scrub
+
+	battle_winter_vegetation
+	dense_forest	ALX_hot_semi_arid_palms_win
+	dense_scrub		ALX_semi_arid_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_open
+{
+	colour	242 101 34
+	heat	2
+
+	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_olive_a.cas		6
+	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_cypress_a.cas		5
+;	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a.cas		6
+;	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/M2_cypress_a.cas		5
+	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_MEDI_PINES_A.cas		2
+;	strategy	summer	sparse_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_PINES_A.cas		2
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas	2
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_2.cas	2
+	strategy	summer	sparse_tree	cypress_a.cas			11
+	strategy	summer	sparse_tree	olive_a.cas				10
+	strategy	summer	dense_tree	olive_a_impassable.cas	10
+;	strategy	summer	dense_tree		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas		12
+	strategy	summer	dense_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_MEDI_PINES_A_impassable.cas		12
+;	strategy	summer	dense_tree		../../../../alx/data/terrain/aerial_map/tree_models/ALX_PINES_A_impassable.cas		12
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/ALX_MEDI_PINES_A_CANOPY.cas		12
+;	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/ALX_PINES_A_CANOPY.cas		12
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/ALX_olive_a_canopy.cas		12
+;	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas		12
+
+	battle_vegetation
+	dense_forest	ALX_medi_forest
+	dense_scrub		ALX_grain
+
+	battle_winter_vegetation
+	dense_forest	ALX_medi_forest_win
+	dense_scrub		ALX_grain_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_deep
+{
+	colour	247 148 29
+	heat	3
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_a.cas	8
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_b.cas	9
+;	strategy	summer	sparse_tree	palm_a.cas	8
+;	strategy	summer	sparse_tree	palm_b.cas	9
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas	2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_small_a.cas	8
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_small_b.cas	9
+	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/palm_small_A.CAS			8
+	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/palm_small_B.CAS			8
+	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/alx_DECIDUOUS_A.CAS			9
+	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_B.CAS		8
+	strategy	summer	sparse_tree	deciduous_a.cas						5
+	strategy	summer	sparse_tree	deciduous_a.cas						5
+	strategy	summer	dense_tree ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_A.CAS			9
+	strategy	summer	dense_tree ../../../../alx/data/terrain/aerial_map/tree_models/alx_DECIDUOUS_A_IMPASSABLE.CAS			9
+	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_B.CAS		8
+	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_A.CAS			9
+	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/alx_DECIDUOUS_A_CANOPY.CAS			9
+	
+	battle_vegetation
+	dense_forest	ALX_subtropical_rainforest
+	dense_scrub		ALX_subtropical_rainforest_scrub
+
+	battle_winter_vegetation
+	dense_forest	ALX_subtropical_rainforest_win
+	dense_scrub		ALX_subtropical_rainforest_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate swamp
+{
+	colour	255 242 0
+	heat	3
+
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_a.cas	8
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_b.cas	9
+	strategy	summer	sparse_tree	palm_a.cas	8
+	strategy	summer	sparse_tree	palm_b.cas	9
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas	2
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_small_a.cas	8
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/palm_small_b.cas	9
+;	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a.cas			9
+	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_B.CAS		8
+;	strategy	summer	sparse_tree ../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a.cas
+	strategy	summer	dense_tree ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_A.CAS			9
+;	strategy	summer	dense_tree ../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			9
+	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_B.CAS		8
+	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/tropical_group_A.CAS			9
+;	strategy	summer	canopy ../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas			9
+
+	battle_vegetation
+	dense_forest		ALX_desert_floodland_forest
+	dense_scrub		ALX_grain
+
+	battle_winter_vegetation
+	dense_forest		ALX_desert_floodland_forest_win
+	dense_scrub		ALX_grain_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate highland
+{
+	colour	141 198 63
+	heat	1
+	winter
+
+
+	strategy	summer	sparse_tree	birch_a.cas						1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a.cas			1
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a_impassable.cas			1
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a_canopy.cas				1
+
+	strategy	winter	sparse_tree	birch_a_winter.cas				1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a_winter.cas			1
+	strategy	winter	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a_impassable_winter.cas	1
+	strategy	winter	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_birch_a_canopy_winter.cas		1
+	
+	battle_vegetation
+	dense_forest	ALX_temperate_steppe_sparse_woodland
+	dense_scrub		ALX_temperate_steppe_grassland
+
+	battle_winter_vegetation
+	dense_forest	ALX_temperate_steppe_sparse_woodland_win
+	dense_scrub		ALX_temperate_steppe_grassland_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate alpine
+{
+	colour	57 181 74
+	heat	1
+	winter
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas	2
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a.cas			2
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a_impassable.cas			2
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a_canopy.cas				2
+		
+
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	winter	sparse_tree	conifer_a_winter.cas				2
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a_winter.cas			2
+	strategy	winter	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a_impassable_winter.cas	2
+	strategy	winter	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_deciduous_a_canopy_winter.cas		2
+
+	battle_vegetation
+	dense_forest	ALX_temperate_deciduous_forest
+	dense_scrub		ALX_temperate_broadleaf_forest_scrub_win
+
+	battle_winter_vegetation
+	dense_forest		ALX_temperate_deciduous_forest_win
+	dense_scrub		ALX_temperate_broadleaf_forest_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sub_arctic
+{
+	colour	0 166 81
+	heat	1
+	winter
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_1.cas		1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_2.cas		1
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a.cas			2
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a_impassable.cas			2
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a_canopy.cas				2
+		
+
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_1.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_pine_2.cas		1
+	strategy	winter	sparse_tree	conifer_a_winter.cas				2
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a_winter.cas			2
+	strategy	winter	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a_impassable_winter.cas	2
+	strategy	winter	canopy		../../../../alx/data/terrain/aerial_map/tree_models/alx_conifer_a_canopy_winter.cas		2
+
+	battle_vegetation
+	dense_forest	ALX_temperate_needleaf_forest
+	dense_scrub		ALX_temperate_needleaf_forest_scrub
+
+	battle_winter_vegetation
+	dense_forest	ALX_temperate_needleaf_forest_win
+	dense_scrub		ALX_temperate_needleaf_forest_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate semi_arid
+{
+	colour	0 114 188
+	heat	2
+	winter
+
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas	1
+;	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas	2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_1.cas	5
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_2.cas	2
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_3.cas	10
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_4.cas	1
+	strategy	summer	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a.cas	1
+	strategy	summer	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_impassable.cas			10
+	strategy	summer	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy.cas				10
+	
+
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_1.cas		1
+;	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_tree_2.cas		1
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_1.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_2.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/desert_plant_3.cas			11
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_1.cas	5
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_2.cas	2
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_3.cas	10
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/alx_rock_4.cas	1
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/dead_olive_tree_a_winter.cas		1
+	strategy	winter	sparse_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_winter.cas				10
+	strategy	winter	dense_tree	../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_impassable_winter.cas			10
+	strategy	winter	canopy		../../../../alx/data/terrain/aerial_map/tree_models/M2_olive_a_canopy_winter.cas				10
+
+	battle_vegetation
+	dense_forest	ALX_temperate_and_cold_desert_rock
+	dense_scrub		ALX_desert_scrub
+
+	battle_winter_vegetation
+	dense_forest	ALX_cold_desert_rock_win
+	dense_scrub		ALX_desert_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+

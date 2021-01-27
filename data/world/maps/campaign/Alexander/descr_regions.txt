@@ -1,0 +1,733 @@
+;
+; regions list
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Western_India
+	Multan
+	parthia
+	Paionians
+	155 182 109
+	slaves, silk
+	5
+	4
+Central_India
+	Minnagara
+	parthia
+	Paionians
+	190 182 174
+	slaves, silk
+	5
+	4
+Sindh
+	Barbarikon
+	parthia
+	Paionians
+	182 213 31
+	slaves, silk
+	5
+	4
+South_India
+	Pattala
+	parthia
+	Paionians
+	159 39 120
+	slaves, silk
+	5
+	4
+Gujarat
+	Dwarka
+	parthia
+	Paionians
+	113 28 170
+	slaves, silk
+	5
+	4
+Hindu_Kush
+	Kabura
+	parthia
+	Aedui
+	182 143 240
+	silver, slaves
+	5
+	8
+Margiana
+	Merv
+	parthia
+	Aedui
+	31 16 136
+	silver, slaves
+	5
+	8
+Chorasmia
+	Asaak
+	gauls
+	Iazyges
+	120 136 186
+	wine, slaves, textiles
+	5
+	7
+Sugdiana
+	Maracanda
+	parthia
+	Insubres
+	221 62 70
+	slaves
+	5
+	3
+Tribus_Sakae
+	Campus_Sakae
+	scythia
+	Sarmatians
+	74 198 182
+	furs, timber, slaves, tin
+	5
+	4
+Astabene
+	Hecatompylus
+	parthia
+	Phoenicians
+	35 151 143
+	slaves
+	5
+	6
+Chaldea
+	Durine
+	parthia
+	Ionians
+	186 167 186
+	slaves, marble
+	5
+	9
+Parapotamia
+	Dura_Europus
+	parthia
+	Palmyrans
+	228 97 85
+	slaves
+	5
+	7
+Assiria
+	Gaugamela
+	parthia
+	Palmyrans
+	175 255 155
+	slaves
+	5
+	7
+Matiene
+	Gazaca
+	parthia
+	Medes
+	209 225 35
+	slaves
+	5
+	5
+Iberia
+	Mtskheta
+	parthia
+	Colchians
+	78 170 109
+	slaves, incense
+	5
+	4
+Colchis
+	Kotais
+	parthia
+	Colchians
+	47 255 40
+	slaves, incense
+	5
+	4
+Sophene
+	Amid
+	parthia
+	Colchians
+	209 155 190
+	slaves, incense
+	5
+	4
+Gordyene
+	Samosata
+	parthia
+	Colchians
+	159 58 109
+	slaves, incense
+	5
+	4
+Trapezus
+	Trapezous
+	parthia
+	Alans
+	198 159 105
+	grain, slaves
+	5
+	4
+Pontus
+	Amasia
+	parthia
+	Alans
+	132 39 47
+	grain, slaves
+	5
+	4
+Kappadocia
+	Mazaka
+	parthia
+	Cappadocians
+	143 151 140
+	slaves, silk
+	5
+	7
+Bythinia
+	Nicaea
+	parthia
+	Maeotae
+	31 97 43
+	wine, slaves, textiles
+	0
+	4
+Hellespontine_Phrygia
+	Ilion
+	parthia
+	Maeotae
+	248 132 39
+	wine, slaves, textiles
+	0
+	4
+Lydia
+	Sardis
+	parthia
+	Bosphorans
+	255 240 0
+	slaves, wild_animals
+	5
+	3
+Panphlya
+	Side
+	parthia
+	Maeotae
+	143 35 55
+	wine, slaves, textiles
+	0
+	4
+Cilicia
+	Tarsus
+	parthia
+	Maeotae
+	97 105 24
+	wine, slaves, textiles
+	0
+	4
+Osroene
+	Edessa
+	parthia
+	Palmyrans
+	124 24 47
+	slaves
+	5
+	7
+Palmyrene
+	Palmyra
+	parthia
+	Syrians
+	226 255 243
+	slaves
+	5
+	3
+Judaea
+	Jerusalem
+	parthia
+	Syrians
+	140 143 66
+	slaves
+	5
+	3
+Bahrayn
+	Gerrha
+	parthia
+	Judaeans
+	62 51 209
+	slaves, tin
+	5
+	5
+Omman
+	Ommana
+	parthia
+	Judaeans
+	209 62 24
+	slaves, tin
+	5
+	5
+Faran
+	Bakkah
+	parthia
+	Judaeans
+	24 85 205
+	slaves, tin
+	5
+	5
+Hejaz
+	Yathrib
+	parthia
+	Judaeans
+	202 124 255
+	slaves, tin
+	5
+	5
+Arabia
+	Dumatha
+	parthia
+	Judaeans
+	255 99 127
+	slaves, tin
+	5
+	5
+Sinai
+	Pelusium
+	parthia
+	Syrians
+	255 178 228
+	slaves
+	5
+	3
+Nubia
+	Pselchis
+	parthia
+	Libyans
+	170 66 0
+	slaves, marble
+	5
+	6
+Lower_Egypt
+	Thebes
+	parthia
+	Nabataeans
+	0 97 12
+	slaves, marble
+	5
+	6
+Marmarica
+	Paraetonion
+	macedon
+	Libyans
+	181 197 255
+	slaves, marble
+	5
+	6
+Cyrenaica
+	Cyrene
+	macedon
+	Libyans
+	197 7 255
+	slaves, marble
+	5
+	6
+Garamantes
+	Garamana
+	parthia
+	Libyans
+	232 255 30
+	slaves, marble
+	5
+	6
+Libya
+	Ammonion
+	parthia
+	Libyans
+	255 188 158
+	slaves, marble
+	5
+	6
+Nile_Delta
+	Sais
+	parthia
+	Nabataeans
+	121 114 255
+	wine, slaves
+	5
+	8
+Cyprus
+	Salamis
+	macedon
+	Bosphorans
+	255 126 117
+	slaves, wild_animals
+	5
+	3
+Cimmerian_Bosphorus
+	Panticapeum
+	macedon
+	Saka
+	255 239 153
+	timber, slaves, wild_animals
+	5
+	2
+Bosphorus
+	Chersonesus
+	macedon
+	Saka
+	212 255 198
+	timber, slaves, wild_animals
+	5
+	2
+Phanagoria
+	Sindica
+	macedon
+	Saka
+	204 179 61
+	timber, slaves, wild_animals
+	5
+	2
+Scythia_Menor
+	Olbia
+	scythia
+	Saka
+	243 255 33
+	timber, slaves, wild_animals
+	5
+	2
+Tribus_Bastarnae
+	Campus_Bastarnae
+	scythia
+	Venedae
+	40 255 140
+	timber, slaves, wild_animals
+	5
+	2
+Pannonia
+	Ak_Ink
+	germans
+	Gepids
+	195 15 255
+	grain, iron, slaves
+	5
+	3
+Tribus_Venedae
+	Vicus_Venedae
+	dacia
+	Venedae
+	255 94 35
+	grain, iron, slaves
+	5
+	3
+Dacia
+	Sarmizegetusa
+	dacia
+	Venedae
+	255 56 148
+	grain, iron, slaves
+	5
+	3
+Getia
+	Buridava
+	dacia
+	Venedae
+	234 255 142
+	olive_oil, slaves
+	5
+	2
+Odrysia
+	Seuthopolis
+	dacia
+	Venedae
+	201 212 255
+	olive_oil, slaves
+	5
+	2
+Scythia_Parva
+	Tomis
+	scythia
+	Saka
+	255 142 43
+	timber, slaves, wild_animals
+	5
+	2
+Agriania
+	Philippopolis
+	dacia
+	Venedae
+	255 173 237
+	olive_oil, slaves
+	5
+	2
+Epirus
+	Ambracia
+	macedon
+	Thessalians
+	255 211 109
+	slaves, lead
+	5
+	3
+Attica
+	Athens
+	macedon
+	Athenians
+	122 255 230
+	slaves
+	5
+	6
+Illyria
+	Epidamnus
+	germans
+	Gepids
+	232 41 55
+	grain, iron, slaves
+	5
+	3
+Scythia
+	Tanais
+	scythia
+	Saka
+	58 177 95
+	timber, slaves, wild_animals
+	5
+	2
+Sarmatia
+	Azara
+	scythia
+	Sarmatians
+	232 198 41
+	furs, timber, slaves, tin
+	5
+	4
+Dahae
+	Nisa
+	gauls
+	Iazyges
+	33 131 116
+	wine, slaves, textiles
+	5
+	7
+Massagetae
+	Kucha
+	gauls
+	Carpi
+	232 41 135
+	iron, slaves
+	5
+	7
+Thrace
+	Byzantium
+	dacia
+	Venedae
+	58 89 177
+	olive_oil, slaves
+	5
+	2
+Macedon
+	Pella
+	macedon
+	Thessalians
+	77 170 58
+	slaves, lead
+	5
+	3
+Thessaly
+	Larissa
+	macedon
+	Thessalians
+	177 83 58
+	slaves, lead
+	5
+	3
+Sogdiana
+	Chach
+	parthia
+	Insubres
+	131 61 33
+	slaves
+	5
+	3
+Bactria
+	Balkh
+	parthia
+	Aedui
+	17 74 202
+	silver, slaves
+	5
+	8
+Paphlagonia
+	Sinope
+	parthia
+	Alans
+	177 58 83
+	grain, slaves
+	5
+	4
+Armenia
+	Amida
+	parthia
+	Colchians
+	177 78 58
+	slaves, incense
+	5
+	4
+Cappadocia
+	Issus
+	parthia
+	Syrians
+	203 41 232
+	slaves, silk
+	5
+	7
+Greece
+	Sparta
+	macedon
+	Athenians
+	58 177 75
+	slaves
+	5
+	6
+Caria
+	Halicarnassus
+	parthia
+	Bosphorans
+	212 232 41
+	slaves, wild_animals
+	5
+	3
+Phrygia
+	Lampsacus
+	parthia
+	Maeotae
+	41 232 63
+	wine, slaves, textiles
+	0
+	4
+Parthia
+	Tabae
+	parthia
+	Phoenicians
+	72 177 58
+	slaves
+	5
+	6
+Media
+	Ecbatana
+	parthia
+	Medes
+	63 232 41
+	slaves
+	5
+	5
+India
+	Taxila
+	parthia
+	Paionians
+	199 31 143
+	slaves, silk
+	5
+	4
+Syria
+	Tyre
+	parthia
+	Syrians
+	131 33 125
+	slaves
+	5
+	3
+Assyria
+	Hatra
+	parthia
+	Palmyrans
+	232 90 41
+	slaves
+	5
+	7
+Parapamisadale
+	Bannu
+	parthia
+	Volcae
+	68 232 41
+	slaves
+	5
+	6
+Aria
+	Artacoana
+	parthia
+	Ligurians
+	131 33 38
+	slaves
+	5
+	5
+Nabataea
+	Petra
+	parthia
+	Judaeans
+	232 41 198
+	slaves, tin
+	5
+	5
+Drangiana
+	Quetta
+	parthia
+	Sithones
+	230 41 232
+	slaves, tin
+	5
+	4
+Arachosia
+	Mundigak
+	parthia
+	Edones
+	85 114 141
+	slaves, wild_animals
+	5
+	7
+Babylonia
+	Babylon
+	parthia
+	Ionians
+	131 89 33
+	slaves, marble
+	5
+	9
+Susiana
+	Suza
+	parthia
+	Elamites
+	72 41 232
+	gold, slaves
+	5
+	6
+Upper_Egypt
+	Rhacotis
+	parthia
+	Nabataeans
+	41 162 232
+	slaves, marble
+	5
+	6
+Middle_Egypt
+	Memphis
+	parthia
+	Nabataeans
+	232 41 46
+	wine, slaves
+	5
+	8
+Gedrosia
+	Pura
+	parthia
+	Bithynians
+	31 75 37
+	gold, slaves, incense
+	5
+	7
+Persis
+	Persepolis
+	parthia
+	Gaetuli
+	58 150 177
+	slaves
+	5
+	5
+Carmania
+	Carmana
+	parthia
+	Achaeans
+	33 100 131
+	slaves
+	5
+	7

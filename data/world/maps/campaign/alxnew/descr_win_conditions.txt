@@ -1,0 +1,33 @@
+macedon
+hold_regions Makedonia
+take_regions 50
+survivor Alexander
+;script world/maps/campaign/alexander/Alexander_Campaign_Outro_Script.txt
+
+parthia
+hold_regions Makedonia
+take_regions 45
+
+gauls
+hold_regions Makedonia
+take_regions 10
+
+germans
+hold_regions Makedonia
+take_regions 10
+
+scythia
+hold_regions Makedonia
+take_regions 10
+
+dacia
+hold_regions Makedonia
+take_regions 10
+
+greek_cities
+hold_regions Lakonia Attika Boiotia Messenia Euboia Macedonia
+take_regions 10
+
+egypt
+hold_regions Makedonia
+take_regions 10

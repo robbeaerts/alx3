@@ -1,0 +1,388 @@
+;
+; regions list
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Western_Crete
+	Kydonia
+	greek_cities
+	Kydonians
+	193 162 206
+	slaves
+	5
+	3
+
+Eastern_Crete
+	Knossos
+	greek_cities
+	Knossians
+	251 210 147
+	slaves
+	5
+	3
+
+Peuke_Island
+	Peuke
+	greek_cities
+	Triballoi
+	131 33 38
+	slaves
+	5
+	3
+
+Pannonia
+	Singidunum
+	greek_cities
+	Pannonioi
+	109 127 149
+	slaves
+	5
+	3
+
+Dalmatia
+	Dalminion
+	greek_cities
+	Dalmatoi
+	13 244 160
+	slaves
+	5
+	3
+
+Parthinia
+	Epidamnos
+	greek_cities
+	Parthinoi
+	204 8 180
+	slaves
+	5
+	3
+
+Ardiaia
+	Skodra
+	greek_cities
+	Ardiaioi
+	61 177 58
+	slaves
+	5
+	3
+
+Getia
+	Helis
+	greek_cities
+	Getai
+	63 232 41
+	slaves
+	5
+	3
+
+Triballia_Anatolia
+	Oiskos
+	greek_cities
+	Triballoi
+	21 111 223
+	slaves
+	5
+	3
+
+Triballia_Hesperia
+	Palatiolon
+	greek_cities
+	Triballoi
+	107 89 177
+	slaves
+	5
+	3
+
+Dardania
+	Naissos
+	greek_cities
+	Dardanoi
+	39 67 171
+	slaves
+	5
+	3
+
+Kaukoensia
+	Petrodava
+	greek_cities
+	Kaukoensoi
+	52 13 198
+	slaves
+	5
+	3
+
+Tyragetaia
+	Clepidava
+	greek_cities
+	Tyragetai
+	223 192 126
+	slaves
+	5
+	3
+
+Kontensia
+	Piroboridava
+	greek_cities
+	Kontensoi
+	232 198 41
+	slaves
+	5
+	3
+
+Ratakensia
+	Signidava
+	greek_cities
+	Ratakensoi
+	128 42 107
+	slaves
+	5
+	3
+
+Albokensia
+	Argedava
+	greek_cities
+	Albokenses
+	230 41 232
+	slaves
+	5
+	3
+
+Buridavensia
+	Buridava
+	greek_cities
+	Bouroi
+	151 47 68
+	slaves
+	5
+	3
+
+Lykia
+	Xanthos
+	greek_cities
+	Lycians
+	68 125 43
+	slaves
+	5
+	3
+
+Mysia
+	Daskyleon
+	greek_cities
+	Mysians
+	33 59 131
+	slaves
+	5
+	3
+
+Ionia
+	Miletos
+	greek_cities
+	Ionians
+	122 4 85
+	slaves
+	5
+	3
+
+Karia
+	Halikarnassos
+	greek_cities
+	Carians
+	131 83 77
+	slaves
+	5
+	3
+
+Lydia
+	Sardis
+	greek_cities
+	Lydians
+	149 109 127
+	slaves
+	5
+	3
+
+Rodos
+	Rhodes
+	greek_cities
+	Rhodians
+	131 33 77
+	slaves
+	5
+	3
+
+Lesbos
+	Mytilene
+	greek_cities
+	Lesbians
+	162 156 2
+	slaves
+	5
+	3
+
+Hellespontos
+	Maroneia
+	greek_cities
+	Maroneians
+	246 19 78
+	slaves
+	5
+	3
+
+
+Odrysia
+	Phillipopolis
+	greek_cities
+	Bessoi
+	72 177 58
+	slaves
+	5
+	3
+
+
+
+Propontis
+	Byzantion
+	greek_cities
+	Byzantines
+	118 131 33
+	slaves
+	5
+	3
+
+Paionia
+	Bylazora
+	greek_cities
+	Paiones
+	244 55 102
+	slaves
+	5
+	3
+
+
+Edonia
+	Amphipolis
+	greek_cities
+	Macedonians
+	203 192 18
+	slaves
+	5
+	3
+
+
+Thessalia
+	Larissa
+	greek_cities
+	Thessalians
+	177 83 58
+	slaves
+	5
+	3
+
+Makedonia
+	Pella
+	macedon
+	Macedonians
+	177 58 145
+	slaves, lead
+	5
+	3
+
+Aitolia
+	Thermon
+	greek_cities
+	Aetolians
+	13 18 244
+	slaves
+	5
+	6
+
+Thesprotia
+	Ambrakia
+	greek_cities
+	Epirotes
+	34 60 132
+	slaves
+	5
+	6
+
+Chaonia
+	Pelion
+	greek_cities
+	Epirotes
+	244 216 185
+	slaves
+	5
+	6
+
+Molossia
+	Passaron
+	greek_cities
+	Epirotes
+	83 58 177
+	slaves
+	5
+	6
+
+Lakonia
+	Sparta
+	greek_cities
+	Heilotes
+	244 13 24
+	slaves
+	5
+	6
+
+Euboia
+	Chalkis
+	greek_cities
+	Euboeans
+	59 174 178
+	slaves
+	5
+	6
+
+Attika
+	Athens
+	greek_cities
+	Athenians
+	58 177 106
+	slaves
+	5
+	6
+
+Britannia_Superior ; Boiotia
+	Thebes
+	greek_cities
+	Thebans
+	158 14 199
+	slaves
+	5
+	6
+
+Isthmos
+	Corinth
+	greek_cities
+	Corinthians
+	225 192 192
+	slaves
+	5
+	6
+
+Achaia
+	Elis
+	greek_cities
+	Achaeans
+	43 233 78
+	slaves
+	5
+	6
+
+Messenia 
+	Messene
+	greek_cities
+	Messenians
+	194 207 51
+	slaves
+	5
+	6

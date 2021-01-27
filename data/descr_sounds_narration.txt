@@ -1,0 +1,1904 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Narration speech
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 1d streamed priority 500 volume -20 fadein 0 fadeout 2.5
+DEFAULT: randomdelay 0 rndvolume 0 pan .5
+DEFAULT: dry_level 1.0 wet_level 0
+DEFAULT: streamed pref SPEECH
+DEFAULT: probability 1
+
+event TEUTOBURG_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg00.mp3
+end
+
+event TEUTOBURG_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg01.mp3
+end
+
+event TEUTOBURG_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg02.mp3
+end
+
+event TEUTOBURG_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg03.mp3
+end
+
+event TEUTOBURG_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg04.mp3
+end
+
+event TEUTOBURG_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg05.mp3
+end
+
+event TEUTOBURG_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg06.mp3
+end
+
+event TEUTOBURG_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg07.mp3
+end
+
+event TEUTOBURG_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg08.mp3
+end
+
+event TEUTOBURG_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg09.mp3
+end
+
+event TEUTOBURG_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Teutoburg10.mp3
+end
+
+
+
+
+event GRAUPIUS_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius01.mp3
+end
+
+event GRAUPIUS_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius02.mp3
+end
+
+event GRAUPIUS_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius03.mp3
+end
+
+event GRAUPIUS_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius04.mp3
+end
+
+event GRAUPIUS_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius05.mp3
+end
+
+event GRAUPIUS_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius06.mp3
+end
+
+event GRAUPIUS_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius07.mp3
+end
+
+event GRAUPIUS_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius08.mp3
+end
+
+event GRAUPIUS_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius09.mp3
+end
+
+event GRAUPIUS_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius10.mp3
+end
+
+event GRAUPIUS_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius11.mp3
+end
+
+event GRAUPIUS_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius12.mp3
+end
+
+event GRAUPIUS_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	MonsGraupius13.mp3
+end
+
+
+
+
+event TELAMON_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon01.mp3
+end
+
+event TELAMON_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon02.mp3
+end
+
+event TELAMON_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon03.mp3
+end
+
+event TELAMON_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon04.mp3
+end
+
+event TELAMON_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon05.mp3
+end
+
+event TELAMON_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon06.mp3
+end
+
+event TELAMON_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon07.mp3
+end
+
+event TELAMON_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon08.mp3
+end
+
+event TELAMON_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon09.mp3
+end
+
+event TELAMON_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon10.mp3
+end
+
+event TELAMON_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon11.mp3
+end
+
+event TELAMON_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon12.mp3
+end
+
+event TELAMON_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon13.mp3
+end
+
+event TELAMON_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon14.mp3
+end
+
+event TELAMON_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon15.mp3
+end
+
+event TELAMON_SPEECH_15
+	folder data/sounds/Voice/Human/Localized/Narration
+	Telamon16.mp3
+end
+
+
+
+
+
+
+
+event ARAUSIO_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio01.mp3
+end
+
+event ARAUSIO_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio02.mp3
+end
+
+event ARAUSIO_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio03.mp3
+end
+
+event ARAUSIO_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio04.mp3
+end
+
+event ARAUSIO_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio05.mp3
+end
+
+event ARAUSIO_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio06.mp3
+end
+
+event ARAUSIO_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio07.mp3
+end
+
+event ARAUSIO_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio08.mp3
+end
+
+event ARAUSIO_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio09.mp3
+end
+
+event ARAUSIO_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio10.mp3
+end
+
+event ARAUSIO_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio11.mp3
+end
+
+event ARAUSIO_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio12.mp3
+end
+
+event ARAUSIO_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio13.mp3
+end
+
+event ARAUSIO_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio14.mp3
+end
+
+event ARAUSIO_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio15.mp3
+end
+
+event ARAUSIO_SPEECH_15
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio16.mp3
+end
+
+event ARAUSIO_SPEECH_16
+	folder data/sounds/Voice/Human/Localized/Narration
+	Arausio17.mp3
+end
+
+
+
+
+event TIGRANOCERTA_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta01.mp3
+end
+
+event TIGRANOCERTA_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta02.mp3
+end
+
+event TIGRANOCERTA_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta03.mp3
+end
+
+event TIGRANOCERTA_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta04.mp3
+end
+
+event TIGRANOCERTA_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta05.mp3
+end
+
+event TIGRANOCERTA_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta06.mp3
+end
+
+event TIGRANOCERTA_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta07.mp3
+end
+
+event TIGRANOCERTA_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta08.mp3
+end
+
+event TIGRANOCERTA_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta09.mp3
+end
+
+event TIGRANOCERTA_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta10.mp3
+end
+
+event TIGRANOCERTA_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta11.mp3
+end
+
+event TIGRANOCERTA_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta12.mp3
+end
+
+event TIGRANOCERTA_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta13.mp3
+end
+
+event TIGRANOCERTA_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta14.mp3
+end
+
+event TIGRANOCERTA_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Tigranocerta15.mp3
+end
+
+
+
+
+
+
+event RAPHIA_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia01.mp3
+end
+
+event RAPHIA_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia02.mp3
+end
+
+event RAPHIA_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia03.mp3
+end
+
+event RAPHIA_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia04.mp3
+end
+
+event RAPHIA_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia05.mp3
+end
+
+event RAPHIA_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia06.mp3
+end
+
+event RAPHIA_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia07.mp3
+end
+
+event RAPHIA_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia08.mp3
+end
+
+event RAPHIA_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia09.mp3
+end
+
+event RAPHIA_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia10.mp3
+end
+
+event RAPHIA_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia11.mp3
+end
+
+event RAPHIA_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia12.mp3
+end
+
+event RAPHIA_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia13.mp3
+end
+
+event RAPHIA_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia14.mp3
+end
+
+event RAPHIA_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia15.mp3
+end
+
+event RAPHIA_SPEECH_15
+	folder data/sounds/Voice/Human/Localized/Narration
+	Raphia16.mp3
+end
+
+
+
+
+
+
+
+
+
+
+event TRASIMENE_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene01.mp3
+end
+
+event TRASIMENE_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene02.mp3
+end
+
+event TRASIMENE_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene03.mp3
+end
+
+event TRASIMENE_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene04.mp3
+end
+
+event TRASIMENE_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene05.mp3
+end
+
+event TRASIMENE_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene06.mp3
+end
+
+event TRASIMENE_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene07.mp3
+end
+
+event TRASIMENE_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene08.mp3
+end
+
+event TRASIMENE_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene09.mp3
+end
+
+event TRASIMENE_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene10.mp3
+end
+
+event TRASIMENE_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene11.mp3
+end
+
+event TRASIMENE_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene12.mp3
+end
+
+event TRASIMENE_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene13.mp3
+end
+
+event TRASIMENE_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene14.mp3
+end
+
+event TRASIMENE_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Lake_Trasimene15.mp3
+end
+
+
+
+
+
+
+
+
+event GERGOVIA_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia01.mp3
+end
+
+event GERGOVIA_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia02.mp3
+end
+
+event GERGOVIA_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia03.mp3
+end
+
+event GERGOVIA_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia04.mp3
+end
+
+event GERGOVIA_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia05.mp3
+end
+
+event GERGOVIA_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia06.mp3
+end
+
+event GERGOVIA_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia07.mp3
+end
+
+event GERGOVIA_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia08.mp3
+end
+
+event GERGOVIA_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia09.mp3
+end
+
+event GERGOVIA_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia10.mp3
+end
+
+event GERGOVIA_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia11.mp3
+end
+
+event GERGOVIA_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia12.mp3
+end
+
+event GERGOVIA_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia13.mp3
+end
+
+event GERGOVIA_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia14.mp3
+end
+
+event GERGOVIA_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia15.mp3
+end
+
+event GERGOVIA_SPEECH_15
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia16.mp3
+end
+
+event GERGOVIA_SPEECH_16
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia17.mp3
+end
+
+event GERGOVIA_SPEECH_17
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia18.mp3
+end
+
+event GERGOVIA_SPEECH_18
+	folder data/sounds/Voice/Human/Localized/Narration
+	Gergovia19.mp3
+end
+
+
+
+
+
+
+
+event SYRACUSE_SPEECH_00
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse00.mp3
+end
+
+event SYRACUSE_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse01.mp3
+end
+
+event SYRACUSE_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse02.mp3
+end
+
+event SYRACUSE_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse03.mp3
+end
+
+event SYRACUSE_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse04.mp3
+end
+
+event SYRACUSE_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse05.mp3
+end
+
+event SYRACUSE_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse06.mp3
+end
+
+event SYRACUSE_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse07.mp3
+end
+
+event SYRACUSE_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse08.mp3
+end
+
+event SYRACUSE_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse09.mp3
+end
+
+event SYRACUSE_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse10.mp3
+end
+
+event SYRACUSE_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse11.mp3
+end
+
+event SYRACUSE_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse12.mp3
+end
+
+event SYRACUSE_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Syracuse13.mp3
+end
+
+
+
+
+event TREBIA_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia01.mp3
+end
+
+event TREBIA_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia02.mp3
+end
+
+event TREBIA_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia03.mp3
+end
+
+event TREBIA_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia04.mp3
+end
+
+event TREBIA_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia05.mp3
+end
+
+event TREBIA_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia06.mp3
+end
+
+event TREBIA_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia07.mp3
+end
+
+event TREBIA_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia08.mp3
+end
+
+event TREBIA_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia09.mp3
+end
+
+event TREBIA_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia10.mp3
+end
+
+event TREBIA_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia11.mp3
+end
+
+event TREBIA_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia12.mp3
+end
+
+event TREBIA_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia13.mp3
+end
+
+event TREBIA_SPEECH_14
+	folder data/sounds/Voice/Human/Localized/Narration
+	Trebia14.mp3
+end
+
+
+
+event CARRHAE_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae01.mp3
+end
+
+event CARRHAE_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae02.mp3
+end
+
+event CARRHAE_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae03.mp3
+end
+
+event CARRHAE_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae04.mp3
+end
+
+event CARRHAE_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae05.mp3
+end
+
+event CARRHAE_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae06.mp3
+end
+
+event CARRHAE_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae07.mp3
+end
+
+event CARRHAE_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae08.mp3
+end
+
+event CARRHAE_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae09.mp3
+end
+
+event CARRHAE_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae10.mp3
+end
+
+event CARRHAE_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae11.mp3
+end
+
+event CARRHAE_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae12.mp3
+end
+
+event CARRHAE_SPEECH_13
+	folder data/sounds/Voice/Human/Localized/Narration
+	Carrhae13.mp3
+end
+
+
+
+
+event CYNOSCEPHALAE_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae01.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae02.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae03.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae04.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae05.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae06.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae07.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae08.mp3
+end
+
+event CYNOSCEPHALAE_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae09.mp3
+end
+
+
+event CYNOSCEPHALAE_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration
+	Cynocephalae10.mp3
+end
+
+
+event ASCULUM_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum01.mp3
+end
+
+event BATTLE_OF_ASCULUM_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum02.mp3
+end
+
+event BATTLE_OF_ASCULUM_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum03.mp3
+end
+
+event BATTLE_OF_ASCULUM_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum04.mp3
+end
+
+event BATTLE_OF_ASCULUM_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum05.mp3
+end
+
+event BATTLE_OF_ASCULUM_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Battle_of_Asculum06.mp3
+end
+
+
+event SIEGE_OF_SPARTA_01
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta01.mp3
+end
+
+event SIEGE_OF_SPARTA_02
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta02.mp3
+end
+
+event SIEGE_OF_SPARTA_03
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta03.mp3
+end
+
+event SIEGE_OF_SPARTA_04
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta04.mp3
+end
+
+event SIEGE_OF_SPARTA_05
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta05.mp3
+end
+
+event SIEGE_OF_SPARTA_06
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta06.mp3
+end
+
+event SIEGE_OF_SPARTA_07
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta07.mp3
+end
+
+event SIEGE_OF_SPARTA_08
+	folder data/sounds/Voice/Human/Localized/Narration
+	Siege_of_Sparta08.mp3
+end
+
+
+
+
+event BAECULA_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_01.mp3
+end
+
+event BAECULA_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_02.mp3
+end
+
+event BAECULA_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_03.mp3
+end
+
+event BAECULA_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_04.mp3
+end
+
+event BAECULA_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_05.mp3
+end
+
+event BAECULA_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_06.mp3
+end
+
+event BAECULA_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_07.mp3
+end
+
+event BAECULA_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_08.mp3
+end
+
+event BAECULA_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_09.mp3
+end
+
+event BAECULA_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_10.mp3
+end
+
+event BAECULA_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration/Baecula
+	Baecula_11.mp3
+end
+
+
+
+
+
+
+
+event CANNAE_SPEECH_01
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_01.mp3
+end
+
+event CANNAE_SPEECH_02
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_02.mp3
+end
+
+event CANNAE_SPEECH_03
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_03.mp3
+end
+
+event CANNAE_SPEECH_04
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_04.mp3
+end
+
+event CANNAE_SPEECH_05
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_05.mp3
+end
+
+event CANNAE_SPEECH_06
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_06.mp3
+end
+
+event CANNAE_SPEECH_07
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_07.mp3
+end
+
+event CANNAE_SPEECH_08
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_08.mp3
+end
+
+event CANNAE_SPEECH_09
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_09.mp3
+end
+
+event CANNAE_SPEECH_10
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_10.mp3
+end
+
+event CANNAE_SPEECH_11
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_11.mp3
+end
+
+event CANNAE_SPEECH_12
+	folder data/sounds/Voice/Human/Localized/Narration/Cannae
+	Cannae_12.mp3
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_01.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_02.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_03.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_04.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_05.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_06.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_07.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_08.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_09.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_INTRO_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_intro
+      Alexander_campaign_intro_10.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_01.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_02.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_03.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_04.mp3
+
+end
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_05.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_06.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_07.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_08.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_09.mp3
+
+end
+
+event ALEXANDER_CAMPAIGN_OUTRO_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/Alexander_campaign_outro
+      Alexander_campaign_outro_10.mp3
+
+end
+
+
+event ALEXANDER_RIP_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_01.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_02.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_03.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_04.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_05.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_06.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_07.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_08.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_09.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_10.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_11
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_11.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_12
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_12.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_13
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_13.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_14
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_14.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_15
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_15.mp3
+
+end
+
+event ALEXANDER_RIP_SPEECH_16
+
+      folder data/sounds/Voice/Human/Localized/Narration/alexander_RIP
+      alexander_RIP_16.mp3
+
+end
+
+event CHAERONEA_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_01.mp3
+
+end
+
+event CHAERONEA_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_02.mp3
+
+end
+
+event CHAERONEA_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_03.mp3
+
+end
+
+event CHAERONEA_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_04.mp3
+
+end
+
+event CHAERONEA_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_05.mp3
+
+end
+
+event CHAERONEA_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_06.mp3
+
+end
+
+event CHAERONEA_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_07.mp3
+
+end
+
+event CHAERONEA_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_08.mp3
+
+end
+
+event CHAERONEA_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_09.mp3
+
+end
+
+event CHAERONEA_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_10.mp3
+
+end
+
+event CHAERONEA_SPEECH_11
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_11.mp3
+
+end
+
+event CHAERONEA_SPEECH_12
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_12.mp3
+
+end
+
+event CHAERONEA_SPEECH_13
+
+      folder data/sounds/Voice/Human/Localized/Narration/chaeronea
+      chaeronea_13.mp3
+
+end
+
+event GAUGAMELA_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_01.mp3
+
+end
+
+event GAUGAMELA_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_02.mp3
+
+end
+
+event GAUGAMELA_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_03.mp3
+
+end
+
+event GAUGAMELA_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_04.mp3
+
+end
+
+event GAUGAMELA_EXTRA_LINE_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_extra_line_04.mp3
+
+end
+
+event GAUGAMELA_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_05.mp3
+
+end
+
+event GAUGAMELA_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_06.mp3
+
+end
+
+event GAUGAMELA_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_07.mp3
+
+end
+
+event GAUGAMELA_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_08.mp3
+
+end
+
+event GAUGAMELA_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_09.mp3
+
+end
+
+event GAUGAMELA_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/gaugamela
+      gaugamela_10.mp3
+
+end
+
+event GRANICUS_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_01.mp3
+
+end
+
+event GRANICUS_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_02.mp3
+
+end
+
+event GRANICUS_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_03.mp3
+
+end
+
+event GRANICUS_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_04.mp3
+
+end
+
+event GRANICUS_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_05.mp3
+
+end
+
+event GRANICUS_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_06.mp3
+
+end
+
+event GRANICUS_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_07.mp3
+
+end
+
+event GRANICUS_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_08.mp3
+
+end
+
+event GRANICUS_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_09.mp3
+
+end
+
+event GRANICUS_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_10.mp3
+
+end
+
+event GRANICUS_SPEECH_11
+
+      folder data/sounds/Voice/Human/Localized/Narration/granicus
+      granicus_11.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_01.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_02.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_03.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_04.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_05.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_06.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_07.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_08.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_09.mp3
+
+end
+
+event HALICARNASSUS_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/halicarnassus
+      halicarnassus_10.mp3
+
+end
+
+event HYDASPES_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_01.mp3
+
+end
+
+event HYDASPES_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_02.mp3
+
+end
+
+
+event HYDASPES_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_03.mp3
+
+end
+
+
+event HYDASPES_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_04.mp3
+
+end
+
+
+event HYDASPES_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_05.mp3
+
+end
+
+
+event HYDASPES_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_06.mp3
+
+end
+
+
+event HYDASPES_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_07.mp3
+
+end
+
+
+event HYDASPES_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_08.mp3
+
+end
+
+
+event HYDASPES_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_09.mp3
+
+end
+
+
+event HYDASPES_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_10.mp3
+
+end
+
+
+event HYDASPES_SPEECH_11
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_11.mp3
+
+end
+
+
+event HYDASPES_SPEECH_12
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_12.mp3
+
+end
+
+
+event HYDASPES_SPEECH_13
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_13.mp3
+
+end
+
+
+event HYDASPES_SPEECH_14
+
+      folder data/sounds/Voice/Human/Localized/Narration/hydaspes
+      hydaspes_14.mp3
+
+end
+
+event ISSUS_SPEECH_01
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_01.mp3
+
+end
+
+event ISSUS_SPEECH_02
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_02.mp3
+
+end
+
+
+event ISSUS_SPEECH_03
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_03.mp3
+
+end
+
+
+event ISSUS_SPEECH_04
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_04.mp3
+
+end
+
+
+event ISSUS_SPEECH_05
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_05.mp3
+
+end
+
+
+event ISSUS_SPEECH_06
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_06.mp3
+
+end
+
+
+event ISSUS_SPEECH_07
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_07.mp3
+
+end
+
+
+event ISSUS_SPEECH_08
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_08.mp3
+
+end
+
+
+event ISSUS_SPEECH_09
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_09.mp3
+
+end
+
+
+event ISSUS_SPEECH_10
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_10.mp3
+
+end
+
+
+event ISSUS_SPEECH_11
+
+      folder data/sounds/Voice/Human/Localized/Narration/issus
+      issus_11.mp3
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+

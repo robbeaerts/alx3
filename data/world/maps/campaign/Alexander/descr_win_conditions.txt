@@ -1,0 +1,33 @@
+macedon
+alexander Macedon Caria Cappadocia Syria Upper_Egypt Middle_Egypt Babylonia Media Dahae Bactria Sugdiana Persis South_India
+take_regions 50
+survivor Alexander
+script world/maps/campaign/alexander/Alexander_Campaign_Outro_Script.txt
+
+parthia
+hold_regions Macedon Greece Caria Phrygia Cappadocia Syria Middle_Egypt Upper_Egypt Armenia Assyria Babylonia Media Susiana Persis Aria Bactria Sogdiana Parapamisadale Nabataea
+take_regions 45
+
+gauls
+hold_regions Bactria Massagetae Dahae Sugdiana
+take_regions 10
+
+germans
+hold_regions Pannonia Illyria Macedon Epirus
+take_regions 10
+
+scythia
+hold_regions Scythia Sarmatia Cimmerian_Bosphorus
+take_regions 10
+
+dacia
+hold_regions Macedon Thrace Odrysia
+take_regions 10
+
+greek_cities
+hold_regions Greece Attica Epirus Cyprus Caria Macedon Cyrenaica Cimmerian_Bosphorus
+take_regions 10
+
+egypt
+hold_regions India Gujarat Central_India Sindh Bactria Arachosia
+take_regions 10
